@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  /* background-color: #f1f1f1 - это цвет самой страници */
+  background-color: #f1f1f1;
+  /*  color - это цвет всего текста сайта */
+  color: black;
+  /* font-size- это размер сайта */
+  font-size: 22px;
+  /* font-weight: - это жирность шрифта */
+  font-weight: normal;
+  /* font-family - это стелистика шрифта */
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  /* все эти свойства можно обьединить в одно */
+  font: normal 22px "Roboto", sans-serif;
+}
+
+.iphone {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info-text h1 {
+  margin-left: 10px;
+}
+.info-text p {
+  margin-left: 10px;
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+.info p {
+  /* это все свойства текста (декорации текста) */
+  color: rgb(2, 5, 11);
+  margin: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; - это размер шрифта */
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+@media (max-width: 700px) {
+  .into {
+    text-align: center;
+    display: block;
+  }
+}
+
+/* .social { */ /* описание CSS текста с википедии и добавление отступов,
+  и рамка управление границами даного обьекта */ /* background: rgb(212, 19, 19) ; */ /* padding: 15px 40px 20px 30px; */ /* padding-top: 15px; */ /* padding-right: 40px; */ /* padding-bottom: 20px; */ /* padding-left: 30px; */ /* margin: 15px; */ /* настройка границ блока */ /* border: 5px solid greenyellow; */ /* border-bottom-style: dotted; */ /* border-top-width: 15px; */ /* border-right-color: blue; */ /* } */
+.container {
+  /* это автоподгон всего сайта и чтоб он был по центру */
+  max-width: 750%;
+  /* auto */
+  margin: auto;
+  padding-top: 30px;
+}
+/* а - это ссылка на ютуб */
+.a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  /* свет первого заголовка */
+  color: rgb(0, 0, 0);
+}
+h2 {
+  /* цвет 2 заголовка */
+  color: rgb(0, 0, 0);
+}
+h3 {
+  color: rgb(1, 1, 3);
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  counter-reset: #86898f;
+  margin-bottom: 10px;
+}
+h4 {
+  color: rgb(3, 1, 7);
+}
+/* стилистика таблици с опытом работы */
+.table {
+  width: 50%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+/* .table td:nth-child(odd) {
+  background: red;
+} */
+h5 {
+  color: #000;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* box-model > div - это значит что только дети могут это приминять */
+/* .box-model > div { */
+/* float: left; */
+/* background: #000; */
+/* border: 4px solid red; */
+/* height: 200px; */
+/* width: 25%; */
+/* box-sizing: border-box  ; */
+/* } */
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.contact h6 {
+  text-align: center;
+}
+.from-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row > .form-group:first-child {
+  margin-right: 0px;
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: white;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn :hover {
+  opacity: 0.9;
+}
+
+/* .position {
+  border: 4px solid black;
+  margin-top: 40 px;
+  padding: 20px;
+}
+.box {
+  position: static;
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+} */
